@@ -1,0 +1,361 @@
+/* GENERAL STYLES */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik";
+  background: whitesmoke;
+  margin: 10px
+}
+
+/* NAVBAR */
+
+.navbar{
+	background-color: green;
+  border: 8px black solid;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+
+.navbar__menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  list-style: none;
+}
+
+.navbar__item{
+  padding:10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar__link{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.navbar__link:hover{
+  color: rgb(0, 0, 0);
+}
+
+nav img{
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+}
+
+nav img:hover{
+  opacity: 50%;
+}
+
+/* HERO */
+
+.cover{
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover p{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px;
+}
+
+.cover img{
+  width: 80%;
+}
+
+/* CHARACTERS */
+
+.aboutGTA{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 40px;
+}
+
+.aboutGTA h2{
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bolder
+}
+
+.gta__container{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align:left;
+}
+
+.gta__container__list ul{
+  list-style: none;
+  line-height: 30px;
+}
+.gta__title{
+  margin: 10px;
+  font-size: 23px;
+  text-align:center;
+}
+
+.gta__container__explanation {
+width: 50%;
+}
+
+.decoration__container{
+  display: flex;
+  justify-content: center;
+}
+
+.decoration__container img{
+  width: 70%;
+  margin: 40px;
+}
+
+
+/* CONTACT */
+
+.contact__container {
+  display: flex;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__intro {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.contact__intro  b{
+  color: green;
+}
+
+.contact__container form{
+  margin: 20px;
+  line-height: 35px;
+  text-align: right;
+}
+
+.contact__container a{
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  margin: 14px;
+  font-size: 18px;
+}
+
+footer strong {
+  color: green;
+}/* GENERAL STYLES */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik";
+  background: whitesmoke;
+  margin: 10px
+}
+
+/* NAVBAR */
+
+.navbar{
+	background-color: green;
+  border: 8px black solid;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+
+.navbar__menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  list-style: none;
+}
+
+.navbar__item{
+  padding:10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar__link{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.navbar__link:hover{
+  color: rgb(0, 0, 0);
+}
+
+nav img{
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+}
+
+nav img:hover{
+  opacity: 50%;
+}
+
+/* HERO */
+
+.cover{
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover p{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px;
+}
+
+.cover img{
+  width: 80%;
+}
+
+/* CHARACTERS */
+
+.aboutGTA{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 40px;
+}
+
+.aboutGTA h2{
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bolder
+}
+
+.gta__container{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align:left;
+}
+
+.gta__container__list ul{
+  list-style: none;
+  line-height: 30px;
+}
+.gta__title{
+  margin: 10px;
+  font-size: 23px;
+  text-align:center;
+}
+
+.gta__container__explanation {
+width: 50%;
+}
+
+.decoration__container{
+  display: flex;
+  justify-content: center;
+}
+
+.decoration__container img{
+  width: 70%;
+  margin: 40px;
+}
+
+
+/* CONTACT */
+
+.contact__container {
+  display: flex;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__intro {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.contact__intro  b{
+  color: green;
+}
+
+.contact__container form{
+  margin: 20px;
+  line-height: 35px;
+  text-align: right;
+}
+
+.contact__container a{
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  margin: 14px;
+  font-size: 18px;
+}
+
+footer strong {
+  color: green;
+}
